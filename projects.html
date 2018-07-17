@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gnarly Grey - a microelectronic architecture company</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <div class="container navy">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar2">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo.png" alt="Gnarly Grey">
+                    </a>
+                </div>
+                <div id="navbar2" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <!--<li class="active"><a href="index.html">Home</a></li>-->
+                        <li><a href="index.html">FPGA Boards</a></li>
+                        <li class="active"><a href="projects.html">Projects</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Info</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <section>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="project project-default">
+
+                        <div class="project-content">
+                            <h3 class="lead">
+                                AWS Rekognition Camera
+                            </h3>
+                            <p>
+                                Camera detects human faces locally, then uses cloud based facial recognition to retrieve the person's name.
+                            </p>
+                            <p><a href="Edge___Cloud_Person_Recognition_Demo.pdf">Project Flyer.</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--<div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="project project-success">
+
+                        <div class="project-content">
+                            <h3 class="lead">
+                                Remote Download HTTPS
+                            </h3>
+                            <p>
+                                And a little description.
+                                <br> and so one
+                            </p>
+                            <p><a href="#">Git link</a></p>
+                        </div>
+                    </div>
+                </div>-->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="project project-radius project-primary">
+                        
+                        <div class="project-content">
+                            <h3 class="lead">
+                                Remote Download MQTT
+                            </h3>
+                            <p>
+                                Program FPGA bitstream to flash over WiFi and HTTPS via gnarlygrey.com
+                            </p>
+                            <p><a href="https://github.com/gtjennings1/remoteDownload">Git link</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="project project-info">
+                       
+                        <div class="project-content">
+                            <h3 class="lead">
+                                JPEG Encoder
+                            </h3>
+                            <p>
+                                Compress images from a camera or bitmaps over 10x in FPGA using a very low resource JPEG Encoder
+                            </p>
+                            <p><a href="https://github.com/gtjennings1/JPEG_Encoder">Git link</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="project project-radius project-warning">
+                      
+                        <div class="project-content">
+                            <h3 class="lead">
+                                Risc-V + HyperRAM
+                            </h3>
+                            <p>
+                                Use a PicoSoC/PicoRV32 RISC-V SoC project variant including a HyperRAM Controller for extra memory
+                            </p>
+                            <p><a href="https://github.com/gtjennings1/HyperBus">Git link</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="project project-radius project-danger">
+                        
+                        <div class="project-content">
+                            <h3 class="lead">
+                                Camera to UART
+                            </h3>
+                            <p>
+                                Extract Images from Omnivision OV7670 VGA camera via FPGA and Microcontroller to a computer serial terminal window.
+                            </p>
+                            <p><a href="https://github.com/gtjennings1/UPDuino-OV7670-Camera">Git link</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="project project-default">
+                       
+                        <div class="project-content">
+                            <h3 class="lead">
+                                2D Mini GPU
+                            </h3>
+                            <p>
+                                A 2D graphics processor with built in frame buffer using Lattice Ultraplus FPGA and a small iPod Nano display.
+                            </p>
+                            <p><a href="https://github.com/gtjennings1/UPDuino-LH154Q01-Display">Git link</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="project project-default">
+               
+                        <div class="project-content">
+                            <h3 class="lead">
+                                USB to SPI
+                            </h3>
+                            <p>
+                                Convert USB v1.1 to UART using FPGA
+                            </p>
+                            <p><a href="https://github.com/gtjennings1/USB2SPI">Git link</a></p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="project project-default">
+                       
+                        <div class="project-content">
+                            <h3 class="lead">
+                          FPGA Workshop Designs by Miodrag
+                            </h3>
+                            <p>
+                                A variety of open source projects using UPDuino v2.0 and the workshop badge expansion board
+                            </p>
+                            <p><a href="https://github.com/mmicko/workshop_badge">Git link</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/row-->
+        </div><!--/container -->
+    </section>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

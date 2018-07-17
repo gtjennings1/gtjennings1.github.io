@@ -1,0 +1,379 @@
+﻿* {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navy .navbar-brand > img {
+    padding: 7px 15px;
+    max-width:250px;
+}
+.navbar-alignit .navbar-header {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    height: 50px;
+}
+
+.navbar-alignit .navbar-brand {
+    top: 50%;
+    display: block;
+    position: relative;
+    height: auto;
+    transform: translate(0,-50%);
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+
+a {
+    text-decoration: none;
+    transition: .4s;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    z-index: 9999;
+}
+.navbar-default .navbar-brand {
+    height:auto;
+}
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+
+.navbar-nav li {
+    border: 1px solid #939598;
+    color: #939598;
+    margin-left: 10px;
+}
+    .navbar-nav li:hover {
+        background: #939598;
+     
+    }
+.navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+}
+
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.glyphicon-chevron-right, .glyphicon-chevron-left {
+    color: #191919;
+}
+/* ------------------- Carousel Styling ------------------- */
+.carousel-inner {
+    border-radius: 15px;
+}
+
+.carousel-caption {
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    padding: 0 0 10px 25px;
+    color: #fff;
+    text-align: left;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 15;
+    margin: 0;
+    padding: 0 25px 25px 0;
+    text-align: right;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+}
+
+
+/* ------------------- Section Styling - Not needed for carousel styling ------------------- */
+
+.section-white {
+    padding: 10px 0;
+}
+
+.section-white {
+    background-color: #fff;
+    color: #555;
+}
+
+.inneritem {
+    text-align: center;
+    color: #555456;
+    padding: 10px;
+    border: 1px solid #999b9e;
+}
+.col-sm-4, .col-sm-4 {
+    margin-bottom:25px;
+}
+.inneritem p {
+    height:30px;
+}
+.inneritem:hover {
+    cursor: pointer;
+    background-color: #e7e7e7;
+    transition: 0.4s;
+}
+/*projects page*/
+.shape {
+    border-style: solid;
+    border-width: 0 70px 40px 0;
+    float: right;
+    height: 0px;
+    width: 0px;
+    -ms-transform: rotate(360deg); /* IE 9 */
+    -o-transform: rotate(360deg); /* Opera 10.5 */
+    -webkit-transform: rotate(360deg); /* Safari and Chrome */
+    transform: rotate(360deg);
+}
+
+.shape-text {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    right: -40px;
+    top: 2px;
+    white-space: nowrap;
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -o-transform: rotate(360deg); /* Opera 10.5 */
+    -webkit-transform: rotate(30deg); /* Safari and Chrome */
+    transform: rotate(30deg);
+}
+
+.project {
+    min-height: 300px;
+    height: auto;
+}
+
+.project {
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin: 15px 0;
+    overflow: hidden;
+}
+
+.project-radius {
+    border-radius: 7px;
+}
+
+.project-default {
+    border-color: #999999;
+}
+
+    .project-default .shape {
+        border-color: transparent #999999 transparent transparent;
+        border-color: rgba(255,255,255,0) #999999 rgba(255,255,255,0) rgba(255,255,255,0);
+    }
+
+.project-danger {
+    border-color: #d9534f;
+}
+
+    .project-danger .shape {
+        border-color: transparent #d9534f transparent transparent;
+        border-color: rgba(255,255,255,0) #d9534f rgba(255,255,255,0) rgba(255,255,255,0);
+    }
+
+.project-success {
+    border-color: #5cb85c;
+}
+
+    .project-success .shape {
+        border-color: transparent #5cb85c transparent transparent;
+        border-color: rgba(255,255,255,0) #5cb85c rgba(255,255,255,0) rgba(255,255,255,0);
+    }
+
+.project-primary {
+    border-color: #428bca;
+}
+
+    .project-primary .shape {
+        border-color: transparent #428bca transparent transparent;
+        border-color: rgba(255,255,255,0) #428bca rgba(255,255,255,0) rgba(255,255,255,0);
+    }
+
+.project-info {
+    border-color: #5bc0de;
+}
+
+    .project-info .shape {
+        border-color: transparent #5bc0de transparent transparent;
+        border-color: rgba(255,255,255,0) #5bc0de rgba(255,255,255,0) rgba(255,255,255,0);
+    }
+
+.project-warning {
+    border-color: #f0ad4e;
+}
+
+    .project-warning .shape {
+        border-color: transparent #f0ad4e transparent transparent;
+        border-color: rgba(255,255,255,0) #f0ad4e rgba(255,255,255,0) rgba(255,255,255,0);
+    }
+
+.project-content {
+    padding: 0 20px 10px;
+}
+.shape {
+    border-style: solid;
+    border-width: 0 70px 40px 0;
+    float: right;
+    height: 0px;
+    width: 0px;
+    -ms-transform: rotate(360deg); /* IE 9 */
+    -o-transform: rotate(360deg); /* Opera 10.5 */
+    -webkit-transform: rotate(360deg); /* Safari and Chrome */
+    transform: rotate(360deg);
+}
+
+.shape-text {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    right: -40px;
+    top: 2px;
+    white-space: nowrap;
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -o-transform: rotate(360deg); /* Opera 10.5 */
+    -webkit-transform: rotate(30deg); /* Safari and Chrome */
+    transform: rotate(30deg);
+}
+
+.project {
+    min-height: 300px;
+    height: auto;
+}
+
+.project {
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin: 15px 0;
+    overflow: hidden;
+}
+
+.project-radius {
+    border-radius: 7px;
+}
+
+.project-default {
+    border-color: #999999;
+}
+
+    .project-default .shape {
+        border-color: transparent #999999 transparent transparent;
+        border-color: rgba(255,255,255,0) #999999 rgba(255,255,255,0) rgba(255,255,255,0);
+    }
+
+.project-danger {
+    border-color: #d9534f;
+}
+
+    .project-danger .shape {
+        border-color: transparent #d9534f transparent transparent;
+        border-color: rgba(255,255,255,0) #d9534f rgba(255,255,255,0) rgba(255,255,255,0);
+    }
+
+.project-success {
+    border-color: #5cb85c;
+}
+
+    .project-success .shape {
+        border-color: transparent #5cb85c transparent transparent;
+        border-color: rgba(255,255,255,0) #5cb85c rgba(255,255,255,0) rgba(255,255,255,0);
+    }
+
+.project-primary {
+    border-color: #428bca;
+}
+
+    .project-primary .shape {
+        border-color: transparent #428bca transparent transparent;
+        border-color: rgba(255,255,255,0) #428bca rgba(255,255,255,0) rgba(255,255,255,0);
+    }
+
+.project-info {
+    border-color: #5bc0de;
+}
+
+    .project-info .shape {
+        border-color: transparent #5bc0de transparent transparent;
+        border-color: rgba(255,255,255,0) #5bc0de rgba(255,255,255,0) rgba(255,255,255,0);
+    }
+
+.project-warning {
+    border-color: #f0ad4e;
+}
+
+    .project-warning .shape {
+        border-color: transparent #f0ad4e transparent transparent;
+        border-color: rgba(255,255,255,0) #f0ad4e rgba(255,255,255,0) rgba(255,255,255,0);
+    }
+
+.project-content {
+    padding: 0 20px 10px;
+}
+@media screen and (min-width: 768px) {
+    .section-white {
+        padding: 1.5em 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .container {
+        max-width: 930px;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .navbar-right {
+
+        margin-top: 30px;
+    }
+}
+@media (max-width:720px) {
+    .navy .navbar-brand > img {
+         padding:0px;
+ 
+        max-width: 150px;
+    }
+    .carousel-inner > .item {
+        height:250px;
+    }
+}
+
+.disabled a {
+    /* Make the disabled links grayish*/
+    color: gray;
+    /* And disable the pointer events */
+    pointer-events: none;
+}
